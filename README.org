@@ -1,0 +1,17 @@
+#+TITLE: Fluency - Joegle
+
+2017 (c) Joseph Wright <joe@joegle.com>
+
+* Todo
+  + [ ] get minimal site working
+  + [ ] add favicon
+  + [ ] add SSL
+
+* Install
+  + install npm modules
+    : npm install
+  + start server
+    : DEBUG=fluency2:* npm start
+  + view http://localhost:3000
+
+
