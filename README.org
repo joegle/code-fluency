@@ -2,10 +2,11 @@
 
 2017 (c) Joseph Wright <joe@joegle.com>
 
-* Todo
-  + [ ] get minimal site working
-  + [ ] add favicon
-  + [ ] add SSL
+* Introduction
+  + Purpose of fluency to build fluency with common scripting language expressions and library calls
+  + I am often searching for the same group of 
+  + and I think I should just memorise these commonly used patterns
+    + with spaced repetition 
 
 * Install
   + install npm modules
@@ -13,5 +14,17 @@
   + start server
     : DEBUG=fluency2:* npm start
   + view http://localhost:3000
+
+
+** Adding Material 
+   + 
+
+* Todo
+  + [X] get minimal site working
+  + [ ] add favicon
+  + [ ] add SSL
+  + [X] Fill out intro
+  + [ ] add score database
+  + [ ] design material format
 
 
