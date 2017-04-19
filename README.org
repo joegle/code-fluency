@@ -2,11 +2,44 @@
 
 2017 (c) Joseph Wright <joe@joegle.com>
 
-* Introduction
+* About
   + Purpose of fluency to build fluency with common scripting language expressions and library calls
   + I am often searching for the same group of 
   + and I think I should just memorise these commonly used patterns
-    + with spaced repetition 
+    + with spaced repetition
+
+** High level user story
+   1. User adds material to learn
+      - Use git submodules
+      - system parses content and initializes scores
+   2. System selects idiom to challenge user (sorts the corpus; filters with UI)
+      - an idiom-challenge consists of:
+	- prompt
+	- grading function
+	  - solution
+	  - solution form
+   3. User responds to challenge
+      - Produces score
+	- correctness
+	- time taken to answer
+	- previous responses
+   4. System updates score of idiom
+   5. Repeat 
+
+** Considering
+   + Question types
+     + select true statements from list
+     + fill in the blank of censored code / free text
+     + multiple choice
+     + honor code self-grade
+     + analogy
+     + Running code
+     + Label/annotate this highlight
+   + Group consensus
+   + prolog database
+   + Long term response
+     + are responses archived?
+
 
 * Install
   + install npm modules
@@ -21,10 +54,12 @@
 
 * Todo
   + [X] get minimal site working
+  + [ ] MVP
   + [ ] add favicon
   + [ ] add SSL
   + [X] Fill out intro
   + [ ] add score database
   + [ ] design material format
-
+  + [ ] introduce angular
+  + [ ] introduce gitsubmodules for material sets
 
