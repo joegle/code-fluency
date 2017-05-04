@@ -23,6 +23,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/angular', express.static(path.join(__dirname, 'node_modules/angular/')));
+app.use('/uirouter', express.static(path.join(__dirname, 'node_modules/@uirouter/angularjs/release/')));
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/')));
 
 app.use('/', index);
